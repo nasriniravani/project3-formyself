@@ -21,6 +21,11 @@
   }
   /* HEADER */
   .hippocampus-header-wrapper,
+
+  .hippocampus-main-content {
+    color: blue;
+  }
+
   .hippocampus-main-content-wrapper,
   .hippocampus-footer-wrapper {
     max-width: 800px;
@@ -41,7 +46,11 @@
   }
   .hippocampus-main-nav a {
     text-decoration: none;
-    color: #e20df0;
+    color: darkblue;
+    font-weight:bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
     transition: all ease .25s;
   }
   .hippocampus-main-nav a:hover {
@@ -50,16 +59,16 @@
   .hippocampus-intro {
       background:
         linear-gradient(
-          rgba(223, 255, 0, 0.75),
+          rgba(80, 203, 237, 0.75),
           rgba(223, 255, 0, 0.75)
         ),
         url(../img/heart-water-splash.jpeg);
-      padding-top: 150px;
-      padding-bottom: 150px;
+      padding-top: 200px;
+      padding-bottom: 200px;
       background-position: center;
       background-size: cover;
       display: flex;
-      justify-content: center;
+      justify-content: left;
     }
   }
   .hippocampus-social-link:hover {
