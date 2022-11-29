@@ -20,7 +20,7 @@
     height: auto;
   }
   /* HEADER */
-  .hippocampus-header-wrapper{
+  .web-header-wrapper{
     font-size: large;
     border-radius: 12px;
     border: none;
@@ -34,24 +34,24 @@
 }
 
 
-  .hippocampus-main-content {
+  .web-main-content {
     color: rgb(21, 18, 196);
     font-size: smaller;
     padding: 60px;
   }
 
-  .hippocampus-main-content-wrapper,
-  .hippocampus-footer-wrapper {
+  .web-main-content-wrapper,
+  .web-footer-wrapper {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
-  .hippocampus-header {
+  .web-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .hippocampus-logo {
+  .web-logo {
     @@ -120,7 +121,6 @@ img {
       padding: 10px;
       border-radius: 20px;
@@ -59,11 +59,11 @@
       margin-bottom: 32px;
     }
     
-  .hippocampus-main-nav {
+  .web-main-nav {
     display: flex;
     gap: 16px;
   }
-  .hippocampus-main-nav a {
+  .web-main-nav a {
     text-decoration: none;
     color: darkblue;
     font-weight:bolder;
@@ -72,10 +72,10 @@
     justify-content: center;
     transition: all ease .25s;
   }
-  .hippocampus-main-nav a:hover {
+  .web-main-nav a:hover {
     color: black;
   }
-  .hippocampus-intro {
+  .web-intro {
       background:
         linear-gradient(
           rgba(80, 203, 237, 0.75),
@@ -90,17 +90,17 @@
       justify-content: left;
     }
   }
-  .hippocampus-social-link:hover {
+  .web-social-link:hover {
     border: 1px solid black;
   }
-  .hippocampus-social-links {
+  .web-social-links {
     display: flex;
     gap: 16px;
   }
-  .hippocampus-social-link-image {
+  .web-social-link-image {
     width: 32px;
   }
-  .hippocampus-team-list {
+  .web-team-list {
     padding-left: 0;
     list-style-type: none;
     display: grid;
@@ -108,25 +108,25 @@
     grid-gap: 4px;
   }
   @media (max-width: 999px) {
-    .hippocampus-team-list {
+    .web-team-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
   }
-  .hippocampus-team-list a {
+  .web-team-list a {
     display: flex;
     flex-direction: column;
     align-items: center;
     filter: grayscale(.5);
     text-decoration: none;
   }
-  .hippocampus-team-list a:hover {
+  .web-team-list a:hover {
     filter: grayscale(0);
   }
-  .hippocampus-team-list p {
+  .web-team-list p {
     font-size: 20px;
   }
   
-  .hippocampus-contact-form {
+  .web-contact-form {
     border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
@@ -134,25 +134,25 @@
     margin-bottom: 32px;
   }
   
-  .hippocampus-feature-content {
+  .web-feature-content {
     display: flex;
     gap: 40px;
   }
   
-  .hippocampus-feature-image {
+  .web-feature-image {
     max-width: 250px;
   }
   
-  .hippocampus-feature-images {
+  .web-feature-images {
     display: flex;
     gap: 12px;
   }
   
-  .hippocampus-footer-wrapper {
+  .web-footer-wrapper {
     padding-top: 32px;
     border-top: 1px solid black;
   }
-  .hippocampus-footer {
+  .web-footer {
     display: flex;
     justify-content: space-between;
   }
