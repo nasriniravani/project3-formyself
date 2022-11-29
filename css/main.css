@@ -13,7 +13,7 @@
     border: 0;
   }
   body {
-    background-color: lightgray;
+    background-color: rgb(175, 174, 174);
   }
   img {
     width: 100%;
@@ -23,12 +23,13 @@
   .hippocampus-header-wrapper,
 
   .hippocampus-main-content {
-    color: blue;
+    color: rgb(21, 18, 196);
+    font-size: smaller;
   }
 
   .hippocampus-main-content-wrapper,
   .hippocampus-footer-wrapper {
-    max-width: 800px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -39,7 +40,7 @@
   }
   .hippocampus-logo {
     @@ -120,7 +121,6 @@ img {
-      padding: 20px;
+      padding: 10px;
       border-radius: 20px;
       background: white;
       margin-bottom: 32px;
