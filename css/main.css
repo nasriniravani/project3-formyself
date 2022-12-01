@@ -1,5 +1,4 @@
 /* Place CSS styles here */
-/* this class is needed to visually hide text from sighted users */
 .sr-only {
     position: absolute;
     width: 1px;
@@ -32,7 +31,6 @@
     width: 30%;
     height: auto;
 }
-
 
   .web-main-content {
     color: rgb(21, 18, 196);
